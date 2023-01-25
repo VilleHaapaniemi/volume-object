@@ -16,4 +16,5 @@ class Volume {
         void setValue(int aValue);
     private:
         int volumeValue;
+        bool isClamping = true;
 };
